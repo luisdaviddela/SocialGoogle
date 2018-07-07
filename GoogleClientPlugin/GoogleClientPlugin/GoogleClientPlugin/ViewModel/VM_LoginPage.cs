@@ -40,7 +40,7 @@ namespace GoogleClientPlugin
         {
             LoginCommand = new Command(LoginAsync);
             LogoutCommand = new Command(Logout);
-            _googleClientManager = CrossGoogleClient.Current;
+            //_googleClientManager = CrossGoogleClient.Current;
             IsLoggedIn = false;
         }
         //--------------------------------------------METODOS

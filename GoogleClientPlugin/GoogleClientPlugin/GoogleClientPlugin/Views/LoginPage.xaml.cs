@@ -15,6 +15,7 @@ namespace GoogleClientPlugin
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            BindingContext = new VM_LoginPage();
 		}
 	}
 }
